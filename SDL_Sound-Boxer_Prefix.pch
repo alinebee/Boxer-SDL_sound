@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'SDL_Sound-Boxer' target in the 'SDL_Sound-Boxer' project.
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif

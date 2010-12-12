@@ -55,7 +55,7 @@
 /* Begin PBXFileReference section */
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DC2EF5B0486A6940098B216 /* SDL_Sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_Sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC2EF5B0486A6940098B216 /* SDL_sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F19D99712B3E5B100496BCF /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		9F19D99912B3E5B100496BCF /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
 		9F19D99B12B3E5B100496BCF /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DC2EF5B0486A6940098B216 /* SDL_Sound.framework */,
+				8DC2EF5B0486A6940098B216 /* SDL_sound.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 			name = Framework;
 			productInstallPath = "$(HOME)/Library/Frameworks";
 			productName = "SDL_Sound-Boxer";
-			productReference = 8DC2EF5B0486A6940098B216 /* SDL_Sound.framework */;
+			productReference = 8DC2EF5B0486A6940098B216 /* SDL_sound.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +241,7 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "SDL_Sound-Boxer" */;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "SDL_sound-Boxer" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -318,7 +318,7 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXPORTED_SYMBOLS_FILE = SDL_Sound/exports/SDL_sound.x;
+				EXPORTED_SYMBOLS_FILE = SDL_sound/exports/SDL_sound.x;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -335,7 +335,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				PRODUCT_NAME = SDL_Sound;
+				PRODUCT_NAME = SDL_sound;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -348,7 +348,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXPORTED_SYMBOLS_FILE = SDL_Sound/exports/SDL_sound.x;
+				EXPORTED_SYMBOLS_FILE = SDL_sound/exports/SDL_sound.x;
 				FRAMEWORK_SEARCH_PATHS = Frameworks;
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
@@ -362,7 +362,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				PRODUCT_NAME = SDL_Sound;
+				PRODUCT_NAME = SDL_sound;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "SDL_Sound-Boxer" */ = {
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "SDL_sound-Boxer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
