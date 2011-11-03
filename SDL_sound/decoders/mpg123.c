@@ -42,13 +42,17 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MPG123_NO_CONFIGURE 1
-#include "libmpg123/mpg123.h"
+#include "mpg123.h"
 
 #include "SDL_sound.h"
 
 #define __SDL_SOUND_INTERNAL__
 #include "SDL_sound_internal.h"
+
+#ifdef _MSC_VER
+#define snprintf _snprintf
+#endif
+
 
 static int MPG123_init(void);
 static void MPG123_quit(void);
