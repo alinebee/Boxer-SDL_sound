@@ -9,11 +9,11 @@ build
 SDL_sound/.hg
 
 #Ignore SDL_sound's makefiles and IDE-specific stuff that we don't need
-*Makefile.*
-*configure.*
-*Doxyfile
-*acinclude.m4
-*bootstrap
+Makefile.*
+configure.*
+Doxyfile
+acinclude.m4
+bootstrap
 SDL_sound/CWProject.sit
 SDL_sound/borland.zip
 SDL_sound/PBProjects.tar.gz
