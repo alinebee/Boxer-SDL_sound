@@ -1,0 +1,29 @@
+#Ignore Finder metadata files
+.DS_Store
+._*
+
+#No build directories thanks
+build
+
+#Ignore hg subrepo stuff
+SDL_sound/.hg
+
+#Ignore SDL_sound's makefiles and IDE-specific stuff that we don't need
+*Makefile.*
+*configure.*
+*Doxyfile
+*acinclude.m4
+*bootstrap
+SDL_sound/CWProject.sit
+SDL_sound/borland.zip
+SDL_sound/PBProjects.tar.gz
+SDL_sound/VisualC
+
+#Ignore user-specific stuff in .xcodeproj bundles
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata
+project.xcworkspace
